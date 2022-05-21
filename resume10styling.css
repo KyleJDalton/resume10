@@ -1,8 +1,8 @@
 body{
     margin:0;
     text-align:center;
-     display: inline-block; 
-     flex-direction:column; 
+     /* display: inline-block; 
+     flex-direction:column;  */
     font-family: "merriweather", arial, helvetica, sans-serif;
     background-color:#EEEEEE;
     width:100%;
@@ -77,8 +77,15 @@ color: #0bc662
 #nav:visited{
 color: #0b819f
 }
-
-
+/****************cards styling start***************/
+#cards{
+    padding:30px 0px
+}
+#card h1{
+    font-weight: 900;
+    font-size:34px;
+    padding-bottom:5px
+}
 
 
 
@@ -99,9 +106,9 @@ color: #0b819f
     
 }
 
-#main-container{
+/* #main-container{
     width:100%;
-}
+} */
 
 #heading{
     padding-top: 50px;
@@ -113,7 +120,10 @@ color: #0b819f
     flex-direction: column;
     justify-content: center;
 }
-  
+  #cards{
+      display: flex;
+      
+  }
 #logo-html{
     
     width:4rem;
@@ -222,7 +232,7 @@ color: #0b819f
     padding:2rem;
 }
     main{
-        display: flex; 
+        
         flex-direction: row; 
         overflow: unset; 
         background-image: url(./Images/geometry-wallpaper.jpg);
