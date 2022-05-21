@@ -17,106 +17,98 @@
 </head>
 
 <body>
+    <!-- nav bar  -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Kyle Dalton</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#Experience">Experience</a>
-              <a class="nav-link active" href="#Education">Education</a>
-              <a class="nav-link active" href="#Skills">Skills</a>
-              <a class="nav-link active" href="#contact">Contact</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#Experience">Experience</a>
+                        <a class="nav-link active" href="#Education">Education</a>
+                            <a class="nav-link active" href="#Skills">Skills</a>
+                                <a class="nav-link active" href="#contact">Contact</a>
+                </div>
             </div>
-          </div>
         </div>
     </nav>
 
-    <!--HEADING-->
+    <!-- HEADING //////   jumbotron -->
         <header class="content" id="heading">
-            <h2 class="heading-text" >Welcom to my website</h2>
-            <picture>
-                <source media="(max-width: 640px)" srcset="./Images/profile-image-new-small.jpg">
-                <source media="(max-width: 1400px)" srcset="./Images/profile-image-new-med.jpg">
-                <img id="headshot" src="./Images/profile-image-new-large.jpg" alt="Profile Photo" >
-            </picture>
-            <h1 class="heading-text">I'm Kyle Dalton</h1>
-            <h2 class="heading-text">A Web Developer</h2>
-
+            <div class="p-3 px-5 mb-4 rounded-3 text-light">
+                <picture >
+                    <img src="./Images/profile-image-new-large.jpg" class=" img-fluid rounded-circle img-thumbnail"id="profile-image" alt="Profile image">
+                </picture>
+                    <div class="container-fluid py-5">
+                        <h1 class="display-5 fw-bold pb-5">Welcome</h1>
+                            <h2 class="col-md-8 fs-7 ">Im Kyle Dalton</h2>
+                                <p class="col-md-8 fs-4 p-1">A web designer and content creator</p>
+                                    <a href="#contact" class="btn btn-success btn-primary btn-lg">Contact Me</a>
+                    </div>
+              </div>
         </header>
-        
-        <div class="p-5 mb-4 bg-light rounded-3">
-            <div class="container-fluid py-5">
-              <h1 class="display-5 fw-bold">Kyle Dalton</h1>
-              <p class="col-md-8 fs-4">welcome to my website</p>
-              <button class="btn btn-primary btn-lg" type="button">Example button</button>
-            </div>
-          </div>
-<main>
-   
-
-
-
-
-
     
+<main>
 
     <div class="content container-fluid-8 text-center" id="main-content">
-     <!--CONTENCE-->
+            <!--CONTENCE-->
         <div class="row p-4">
-     <!--EDUCATION-->
-        <div class="col-12">
+            <!--EDUCATION-->
+            <div class="col-12">
+                <picture>
+                    <img id="education-logo" src="./Images/education-logo.png" alt="education logo">
+                </picture>
+                    <h1 id="Education">Education</h1>
+                        <h3>Intro to Web Design at <a  href="https://www.codespace.co.za/" target="_blank">Code Space</a></h3>
+                            <P>At Code Space I have done the intro to web design course.Continuing down the path od the software development
+                                course I will be adding to my skills as I learn more about software delevolopment</P>
 
-                <img id="education-logo" src="./Images/education-logo.png" alt="education logo">
-                <h1 id="Education">Education</h1>
-                <h3>Intro to Web Design at <a  href="https://www.codespace.co.za/">Code Space</a></h3>
-                <P>At Code Space I have done the intro to web design course.Continuing down the path od the software development
-                course I will be adding to my skills as I learn more about software delevolopment</P>
+                        <h3>Matric certificate</h3>
+                            <p>At Benoni High School I received my NCS with a Bachelors pass</p>
+        </div> 
 
-                <h3>Matric certificate</h3>
-                <p>At Benoni High School I received my NCS with a Bachelors pass</p>
-
-        </div>
-           
         <!--EXPERIENCE-->
+
         <div class="col-12">
+            <picture>
+                <img id="work-logo" src="./Images/work-logo.png" alt="work logo">
+            </picture>
+                <h1 id="Experience">Experience</h1>
+                    <h3>Cycle Lab Boksburg</h3>
+                        <p>
+                            I am currently employed at Cycle lab as the stockroom supervisor.I have worked my way up from the stockroom clerk since I started at Cycle lab.
+                            In this role I manage all stock coming into the store and make sure that all items correspond with the invoices as well as our system.Communicating with suppliers when there are issues is key as any issues that arrive need to be sorted out ASAP.
+                            I run the shipping and dispatching department of Cycle Lab Boksburg as well as The Pro Shop Boksurg as they share the dispatching department.
+                            I ship out all online orders for the store as well as manage all customer queries regarding their online order to ensure all packages are delivers safely and minimise delays.
+                            This is especially important as comunication is key , you never want anyone in the dark especially the customer.
+                        </p>
 
-            <img id="work-logo" src="./Images/work-logo.png" alt="work logo">
-            <h1 id="Experience">Experience</h1>
-
-            <h3>Cycle Lab Boksburg</h3>
-                <p>
-                    I am currently employed at Cycle lab as the stockroom supervisor.I have worked my way up from the stockroom clerk since I started at Cycle lab.
-                    In this role I manage all stock coming into the store and make sure that all items correspond with the invoices as well as our system.Communicating with suppliers when there are issues is key as any issues that arrive need to be sorted out ASAP.
-                    I run the shipping and dispatching department of Cycle Lab Boksburg as well as The Pro Shop Boksurg as they share the dispatching department.
-                    I ship out all online orders for the store as well as manage all customer queries regarding their online order to ensure all packages are delivers safely and minimise delays.
-                    This is especially important as comunication is key , you never want anyone in the dark especially the customer.
-                </p>
-
-            <h3>Freelance at Events</h3>
-                <p>
-                    I have worked part time for Day For Fantacy since 2016 , Day For Fantacy is a kids entertainment company with wide range of services , all things kids related is on the menue,
-                    here I assisted in party set ups including decorations and candy stations as well as the entertainment during the parties.
-                    I have also worked for Extreme Party Venues , setting up for parties plus working each station at the paries making sure everyone is satisfied with the venue and the services that were provided.
-                </p>
-
+                    <h3>Freelance at Events</h3>
+                        <p>
+                            I have worked part time for Day For Fantacy since 2016 , Day For Fantacy is a kids entertainment company with wide range of services , all things kids related is on the menue,
+                            here I assisted in party set ups including decorations and candy stations as well as the entertainment during the parties.
+                            I have also worked for Extreme Party Venues , setting up for parties plus working each station at the paries making sure everyone is satisfied with the venue and the services that were provided.
+                        </p>
         </div>
-            
+
         <!--SKILLS-->
+
         <div class="col-12">
-            <img id="skills-logo" src="./Images/skills-logo.png" alt="skills logo">
-            <h1 id="Skills">Skills</h1>
-            <div class="skills">
-                <p>Photography</p>
-                <p>Web Design</p>
-                <p>Content Creation</p>
-            </div>
-            </div>
+            <picture>
+                <img id="skills-logo" src="./Images/skills-logo.png" alt="skills logo">
+            </picture>
+                <h1 id="Skills">Skills</h1>
+                    <div class="skills">
+                        <p>Photography</p>
+                        <p>Web Design</p>
+                        <p>Content Creation</p>
+                    </div>
         </div>
     </div>
 
+     <!-- cards -->
     <section id="cards" >
         <div class="container" >
             <div class="title text-center pb-3">
@@ -132,7 +124,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">HTML</h5>
                                 <p class="card-text">HyperText Markup Language is the code that is used to structure a web page and its content.</p>
-                                <a href="https://www.google.com/search?q=html&oq=html&aqs=chrome..69i57j0i512l2j0i433i512l2j0i131i433j0i512l2j0i131i433j0i512.1837j0j15&sourceid=chrome&ie=UTF-8" class="btn btn-primary">Learn more about HTML</a>
+                                <a href="https://www.google.com/search?q=html&oq=html&aqs=chrome..69i57j0i512l2j0i433i512l2j0i131i433j0i512l2j0i131i433j0i512.1837j0j15&sourceid=chrome&ie=UTF-8" target="_blank" class="btn btn-primary">Learn more about HTML</a>
                             </div>
                     </div>
                 </div>
@@ -145,7 +137,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">CSS</h5>
                                 <p class="card-text">CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.</p>
-                                <a href="https://www.google.com/search?q=css&oq=css&aqs=chrome..69i57j69i59i450l2j69i57j69i59i450l6.469j0j15&sourceid=chrome&ie=UTF-8" class="btn btn-primary">Learn more about CSS</a>
+                                <a href="https://www.google.com/search?q=css&oq=css&aqs=chrome..69i57j69i59i450l2j69i57j69i59i450l6.469j0j15&sourceid=chrome&ie=UTF-8" target="_blank" class="btn btn-primary">Learn more about CSS</a>
                             </div>
                     </div>
                 </div>
@@ -158,7 +150,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Lightroom</h5>
                                 <p class="card-text">Adobe Lightroom lets professional photographers and photo enthusiasts make amazing photos from anywhere through photo editing and organising.</p>
-                                <a href="https://www.google.com/search?q=lightroom&oq=&aqs=chrome.0.69i59i450l8.415575115j0j15&sourceid=chrome&ie=UTF-8" class="btn btn-primary">Learn more about Lightroom</a>
+                                <a href="https://www.google.com/search?q=lightroom&oq=&aqs=chrome.0.69i59i450l8.415575115j0j15&sourceid=chrome&ie=UTF-8" target="_blank" class="btn btn-primary">Learn more about Lightroom</a>
                             </div>
                     </div>
                 </div>
@@ -171,7 +163,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Bootstrap</h5>
                                 <p class="card-text">Bootstrap utilizes Sass for a modular and customizable architecture.</p>
-                                <a href="https://www.google.com/search?q=bootstrap&oq=BOOTSTRAP&aqs=chrome.0.69i59j0i512j0i10i512l4j0i512j0i10i512l3.4433j0j15&sourceid=chrome&ie=UTF-8" class="btn btn-primary">Learn more about Bootsrap</a>
+                                <a href="https://www.google.com/search?q=bootstrap&oq=BOOTSTRAP&aqs=chrome.0.69i59j0i512j0i10i512l4j0i512j0i10i512l3.4433j0j15&sourceid=chrome&ie=UTF-8" target="_blank" class="btn btn-primary">Learn more about Bootsrap</a>
                             </div>
                     </div>
                 </div>
@@ -179,6 +171,7 @@
         </div>
     </section>
 </main>
+
     <!--CONTACT-->
 
     <footer class="content container-fluid" id="contact">
@@ -186,17 +179,48 @@
 
                 <h1 id="contact-heading">Contact</h1>
                     <div class="col-2"> 
-                        <a href="https://www.instagram.com/">
+                        <a href="https://www.instagram.com/" target="_blank">
                             <img class="icon" src="./Images/instagram.png" alt="instagram icon" >
                         </a>
                     </div>
                     <div class="col-2 ">
-                        <a href="contact.html">
+                        <a href="mailto:kyle.jdalton@outlook.com" target="_blank">
                             <img class="icon" src="./Images/mail-image.png" alt="email icon">
                         </a>
                     </div>
             </div>
-    </footer>
+
+
+
+            <!-- btn Modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+    Contact Information
+  </button>
+  
+  <!-- Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content-center">
+  
+                <div class="modal-header ">
+                    <h4 class="modal-title">Email</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+  
+        
+                <div class="modal-body">
+                    kyle.jdalton@outlook.com
+                </div>
+  
+        
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Got It</button>
+                </div>
+  
+            </div>
+        </div>
+    </div>
+    
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
